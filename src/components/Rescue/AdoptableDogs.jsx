@@ -54,7 +54,8 @@ function AdoptableDog(){
       content={
       <div className="modal-content">
       <div className="modal-header pet-header">
-      <div className="modal-title pull-left"><h1>Jory</h1>
+      
+      <div className="modal-title pull-left"><h1>{dog.name}</h1>
             </div>
             </div>
         <div className="modal-body">
@@ -64,7 +65,7 @@ function AdoptableDog(){
             <Carousel.Item>
              <img
                 className="d-block w-100"
-                src="https://www.shelterluv.com/sites/default/files/animal_pics/1235/2021/10/13/16/20211013165035.png"
+                src={dog.image}
                 alt="First slide"
             />
             </Carousel.Item>
