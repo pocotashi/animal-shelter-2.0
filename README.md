@@ -10,3 +10,10 @@
 > npm start
 
 ## This project is still under construction.
+
+## things to do next
+
+```
+> update the pop up window with correct profile for dogs and cats
+
+```
