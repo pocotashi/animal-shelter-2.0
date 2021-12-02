@@ -1,34 +1,33 @@
 import React from 'react';
-import Socials from './FooterSocial';
+import {FaFacebook, FaInstagram, FaTwitter,FaRegCopyright} from 'react-icons/all'
 
 
 
 function Footer(){
+    const today = new Date();
+    const date = today.getFullYear();
     return (
         <div className="footer">
-            <div className="textwidget">
-                <ul>
-                    <li><a style={{color:"white"}} href="/category/journal/">Sarama's Journal</a></li>
-                    <li><a style={{color:"white"}} href="/events/">Upcoming Events</a></li>
-                    <li><a style={{color:"white"}} href="/category/news/">News</a></li>
-                    <li><a style={{color:"white"}} href="/media-mention/">Media Mention</a></li>
-                    <li><a style={{color:"white"}} href="/contact-us/">Contact Us</a></li>
-                    <li><a style={{color:"white"}} href="/faq/">Frequently Asked Questions</a></li>
-                </ul>
-            </div>
-            <div className="textwidget">
-                <ul>
-                    <li><a style={{color:"white"}} href="/foster-application/">Foster Application</a></li>
-                    <li><a style={{color:"white"}} href="/adoption-application/">Adoption Application</a></li>
-                    <li><a style={{color:"white"}} href="/volunteer-application/">Volunteer Application</a></li>
-                    <li><a style={{color:"white"}} href="/donate/">Ways to Donate</a></li>
-                    <li><a style={{color:"white"}} href="/volunteer/">Available Volunteer Positions</a></li>
-                </ul>
-
-		    </div>
+            
             <div>
-                <Socials/>
+
+            <FaRegCopyright/> <span><h6>{date} Kipu's Rescue</h6> </span>
+            200 Middle Street
+            <br/>
+            Astoria NY 11103 
+            <br/>
+            info@kipurescue.org
+
+            <br/>
+            kipu's Rescue is a 501(c)(3) nonprofit organization (EIN: 11-6101487).
             </div>
+            <FaFacebook/>
+            <FaInstagram />
+            <FaTwitter />
+            <form>
+            <input type="text" placeholder="email"/>
+            <button>Sign Up for Newsletter</button>
+        </form>
 
         </div>
     )
