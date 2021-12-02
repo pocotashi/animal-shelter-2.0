@@ -30,7 +30,7 @@ function Myth(){
              a more compassionate world for the animals.
             </p></Col>
                 <Col xs={12} md={4}><img class="myth-image"
-                src="https://ichef.bbci.co.uk/news/976/cpsprodpb/12A9B/production/_111434467_gettyimages-1143489763.jpg" alt="23"/></Col>
+                src="./Images/kipu.jpeg" alt="23"/></Col>
             </Row>
             </Container>
             

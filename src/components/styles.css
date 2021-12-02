@@ -109,7 +109,7 @@ div {
 /* --------------------- */
 
 
-/* how you can help */
+/* how you can help section*/
 
 .torn-paper{
     text-align: center;
@@ -119,8 +119,15 @@ div {
     -webkit-transform: rotate(180deg);
 }
 
+.canHelp{
+    background-color: whitesmoke;
+    padding: 3% 7%;
+    text-align: center;
+    line-height: 2rem;
+    
+}
 
-/* recent events */
+/* journal section */
 
 .rEvent{
     background-color: #e5e9f0;
@@ -131,43 +138,30 @@ div {
 .rEvent-img {
     width: 300px;
     height: 300px;
-    margin: 0 50px 20px;
     border-radius: 50%;
-    overflow: hidden;
-    display: inline-block;
-    float: right;
-    position: relative;
+    margin: 0px 0px 10px 10px;
+    
 }
 
 .rEvent-text {
-    font-family: sanchez !important;
-    color: #555/*#3d3f43*/;
+    
+    
     margin-bottom: 0;
     line-height: 1.8;
     font-size: 1em;
-    padding-left: 10px;
-
-}
-
-.rEvent-img2 {
-    width: 300px;
-    height: 300px;
-    margin: 0 50px 20px;
-    border-radius: 50%;
-    overflow: hidden;
-    display: inline-block;
-    float: left;
-    position: relative;
-}
-
-.journalEntry {
     text-align: left;
+
+
 }
 
-.successStory {
-    margin-top: 150px;
-    text-align: right;
+.events {
+    padding: 5% 1%;
 }
+
+
+
+
+/* --------------------- */
 
 .quote-inspire {
     margin: auto;
@@ -179,23 +173,11 @@ div {
 /* footer */
 
 .footer {
-    background-color: #3f3f3f;
-    height: 300px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    border: 1px black solid;
-    margin: 0 auto;
+    background-color: gray;
 }
 
-.textwidget {
-    line-height: 3rem;
 
-}
-
-.textwidget li {
-    list-style-type: none;
-}
+/* -------------------- */
 
 
 /* adoptable cat page */
