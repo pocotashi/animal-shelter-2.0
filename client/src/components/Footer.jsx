@@ -9,7 +9,7 @@ function Footer(){
     return (
         <div className="footer">
             
-            <div>
+            <div className="footer-info">
 
             <FaRegCopyright/> <span><h6>{date} Kipu's Rescue</h6> </span>
             200 Middle Street
@@ -21,14 +21,19 @@ function Footer(){
             <br/>
             kipu's Rescue is a 501(c)(3) nonprofit organization (EIN: 11-6101487).
             </div>
-            <FaFacebook/>
-            <FaInstagram />
-            <FaTwitter />
+            
+            <div className="footer-signup">
+            <FaFacebook style={{fontSize: '65px'}}/>
+            <FaInstagram style={{fontSize: '65px'}}/>
+            <FaTwitter style={{fontSize: '65px'}}/>
             <form>
-            <input type="text" placeholder="email"/>
-            <button>Sign Up for Newsletter</button>
-        </form>
+                <input className="signupform" type="text" placeholder="email"/>
+                <button>Sign Up for Newsletter</button>
+                </form>
 
+                </div>
+
+                
         </div>
     )
 }

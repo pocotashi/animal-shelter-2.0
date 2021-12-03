@@ -4,7 +4,7 @@ import {CardGroup} from 'react-bootstrap';
 import {FaPaypal, FaPatreon, FaShoppingBag, IoLogoVenmo} from 'react-icons/all';
 
 
-const fontStyles = {fontSize: "150px"}; 
+const fontStyles = {fontSize: "120px"}; 
 function CardMoney() {
   return ( 
   <CardGroup className="m-auto">
