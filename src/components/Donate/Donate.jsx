@@ -11,7 +11,7 @@ function Donate(){
     <BodySection
         header={'Donate'}
 
-        para={<h1>The donation form is under construction</h1>}
+        para={<h1>The donation form is under construction. Will be up soon</h1>}
         
     />
     
